@@ -1,6 +1,6 @@
 # Foundation
 
-![alt text](https://media.discordapp.net/attachments/737869974013476906/951587908014444554/image0.png?width=607&height=676)
+![alt text](https://media.discordapp.net/attachments/737869974013476906/951585224653938738/latest.png)
 
 Yo tengo una hermana menor de 12 años llamada Melisa pero empeze a decirle gura de cariño cuando me ise matsurisu a los 15 despues se iso fan de shion a los 11 y actualmente eh echo algo tan terrible que no puedo dormir...
 
