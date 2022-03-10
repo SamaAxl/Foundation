@@ -9,23 +9,40 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
 <body>
-  <!-- Start Top Bar -->
-  <div class="top-bar">
-    <div class="top-bar-left">
-      <ul class="menu">
-        <li class="menu-text">Yeti Agency</li>
-      </ul>
-    </div>
-    <div class="top-bar-right">
-      <ul class="menu">
-        <li><a href="#">One</a></li>
-        <li><a href="#">Two</a></li>
-        <li><a href="#">Three</a></li>
-        <li><a href="#">Four</a></li>
-      </ul>
-    </div>
+  <!-- mobile nav bar -->
+<div class="title-bar topbar-center-logo-mobile" data-responsive-toggle="topbar-center-logo" data-hide-for="medium">
+  <div class="title-bar-left">
+    <div class="title-bar-title"><img src="https://placehold.it/100x39" alt="" /></div>
   </div>
-  <!-- End Top Bar -->
+  <div class="title-bar-right">
+    <button class="menu-icon" type="button" data-toggle="topbar-center-logo"></button>
+  </div>
+</div>
+<!-- /mobile nav bar -->
+
+<!-- medium and larger nav bar -->
+<div class="top-bar topbar-center-logo" id="topbar-center-logo">
+  <div class="top-bar-left">
+    <ul class="menu vertical medium-horizontal">
+      <li><a href="#">One</a></li>
+      <li><a href="#">Two</a></li>
+      <li><a href="#">Three</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-center">
+    <a href="#"><img src="https://placehold.it/100x39" alt="" /></a>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu vertical medium-horizontal">
+      <li><a href="#">Four</a></li>
+      <li><a href="#">Five</a></li>
+      <li><a href="#">Six</a></li>
+    </ul>
+  </div>
+</div>
+<!-- /medium and larger nav bar -->
+
+
   
   <div class="news-image-gallery-container">
     <div class="row">
@@ -178,10 +195,189 @@
           </button>
        </form>
       </div>
-      
-      
-      
   </div>
+
+  <!-- You can add more icons at //fontawesome.io/icons/#brand -->
+<ul class="sticky-social-bar">
+  <li class="social-icon">
+    <a href="#"> 
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <span class="social-icon-text">Facebook</span>
+    </a>
+  </li>
+  <li class="social-icon">
+    <a href="#">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <span class="social-icon-text">Twitter</span>
+    </a>
+  </li>
+  <li class="social-icon">
+    <a href="#">
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+      <span class="social-icon-text">Linkedin</span>
+    </a>
+  </li>
+  <li class="social-icon">
+    <a href="#">
+      <i class="fa fa-youtube" aria-hidden="true"></i>
+      <span class="social-icon-text">Youtube</span>
+    </a>
+  </li>
+  <li class="social-icon">
+    <a href="#">
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <span class="social-icon-text">Instagram</span>
+    </a>
+  </li>
+  <li class="social-icon">
+    <a href="#">
+      <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+      <span class="social-icon-text">Pinterest</span>
+    </a>
+  </li> 
+</ul>
+
+
+
+  <table class="table-expand">
+    <thead>
+      <tr class="table-expand-row">
+        <th width="200">Date</th>
+        <th>Number of items</th>
+        <th class="text-right" width="150">Amount</th>
+        <th width="150">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="table-expand-row" data-open-details>
+        <td>August 15</td>
+        <td>2 items</td>
+        <td class="text-right">$0.50</td>
+        <td>in progress <span class="expand-icon"></span></td>
+      </tr>
+  
+      <tr class="table-expand-row-content">
+        <td colspan="8" class="table-expand-row-nested">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+        </td>
+      </tr>
+  
+      <tr class="table-expand-row" data-open-details>
+        <td>July 15</td>
+        <td>4 items</td>
+        <td class="text-right">$1.30</td>
+        <td>scheduled <span class="expand-icon"></span></td>
+      </tr>
+  
+      <tr class="table-expand-row-content">
+        <td colspan="8" class="table-expand-row-nested">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+        </td>
+        </td>
+      </tr>
+  
+      <tr class="table-expand-row" data-open-details>
+        <td>June 15</td>
+        <td>1 item</td>
+        <td class="text-right">$0.10</td>
+        <td>carried over <span class="expand-icon"></span></td>
+      </tr>
+  
+      <tr class="table-expand-row-content">
+        <td colspan="8" class="table-expand-row-nested">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+        </td>
+        </td>
+      </tr>
+  
+      <tr class="table-expand-row" data-open-details>
+        <td>May 15</td>
+        <td>1 item</td>
+        <td class="text-right">$0.10</td>
+        <td>carried over <span class="expand-icon"></span></td>
+      </tr>
+  
+      <tr class="table-expand-row-content">
+        <td colspan="8" class="table-expand-row-nested">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+        </td>
+        </td>
+      </tr>
+  
+      <tr class="table-expand-row" data-open-details>
+        <td>April 15</td>
+        <td>1 item</td>
+        <td class="text-right">$0.10</td>
+        <td>carried over <span class="expand-icon"></span></td>
+      </tr>
+  
+      <tr class="table-expand-row-content">
+        <td colspan="8" class="table-expand-row-nested">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+        </td>
+        </td>
+      </tr>
+  
+      <tr class="table-expand-row" data-open-details>
+        <td>March 15</td>
+        <td>1 item</td>
+        <td class="text-right">$0.10</td>
+        <td>carried over <span class="expand-icon"></span></td>
+      </tr>
+  
+      <tr class="table-expand-row-content">
+        <td colspan="8" class="table-expand-row-nested">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+        </td>
+        </td>
+      </tr>
+  
+      <tr class="table-expand-row" data-open-details>
+        <td>February 15</td>
+        <td>2 items</td>
+        <td class="text-right">$1.20</td>
+        <td>paid <span class="expand-icon"></span></td>
+      </tr>
+  
+      <tr class="table-expand-row-content">
+        <td colspan="8" class="table-expand-row-nested">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+        </td>
+        </td>
+      </tr>
+  
+      <tr class="table-expand-row" data-open-details>
+        <td>January 15</td>
+        <td>5 items</td>
+        <td class="text-right">$0.50</td>
+        <td>carried over <span class="expand-icon"></span></td>
+      </tr>
+  
+      <tr class="table-expand-row-content">
+        <td colspan="8" class="table-expand-row-nested">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+        </td>
+        </td>
+      </tr>
+  
+      <tr class="table-expand-row" data-open-details>
+        <td>December 15</td>
+        <td>2 items</td>
+        <td class="text-right">$0.20</td>
+        <td>carried over <span class="expand-icon"></span></td>
+      </tr>
+  
+      <tr class="table-expand-row-content">
+        <td colspan="8" class="table-expand-row-nested">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque unde quaerat reprehenderit ipsa ipsam, adipisci facere repellendus impedit at, quisquam dicta optio veniam quia nesciunt, inventore quod in neque magni?</p>
+        </td>
+        </td>
+      </tr>
+  
+    </tbody>
+  </table>
+  
+  
 
   <div class="row column">
     <ul class="pagination" role="navigation" aria-label="Pagination">
