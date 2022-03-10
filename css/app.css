@@ -8,7 +8,6 @@
 
 .news-image-gallery-container {
   background-color: #fefefe;
-  padding: 2rem 1.5rem 1rem;
 }
 
 .news-image-gallery-container .rounded-social-buttons {
@@ -325,5 +324,67 @@
   background-color: inherit;
 }
 
+.containerImagenes{
+  width: 100%;
+  height:auto;
+}
 
+@media screen and (max-width: 960px){
+  .orbit-container{
+    display:block;
+    margin:0 auto;
+    width:100%;
+    max-height: 30rem;
+  }
+  .orbit-caption{
+    overflow: visible;
+    max-height: 30rem;
+  }
+  .orbit-slide{
+    overflow: visible;
+    max-height: 30rem;
+  }
+  .orbit-image{
+    width:100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: cover;
+  }
 
+  .orbig-image img{
+    display: block;
+    max-width: none !important;
+    max-height: 30rem;
+  }
+}
+
+@media screen and (min-width: 965px){
+  .orbit-container{
+    display:block;
+    margin:0 auto;
+    width:100%;
+    max-height: 30rem;
+  }
+  .orbit-caption{
+    overflow: visible;
+    max-height: 30rem;
+  }
+  .orbit-slide{
+    overflow: visible;
+    max-height: 30rem;
+  }
+  .orbit-image{
+    width:100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: cover;
+  }
+
+  .orbig-image img{
+    display: block;
+    max-width: none !important;
+    max-height: 30rem;
+  }
+}
