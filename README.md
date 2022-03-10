@@ -1,4 +1,7 @@
 # Foundation
+
+![alt text](https://media.discordapp.net/attachments/737869974013476906/951587908014444554/image0.png?width=607&height=676)
+
 Yo tengo una hermana menor de 12 años llamada Melisa pero empeze a decirle gura de cariño cuando me ise matsurisu a los 15 despues se iso fan de shion a los 11 y actualmente eh echo algo tan terrible que no puedo dormir...
 
 Lo que paso fue que yo soy un lu-knight...me gusta el hentai de luna...durante un mes ella me observava ver ese hentai , luego ella investigo del tema...yo no sabia que me espiava a si que seguia viendo mis cochinadas tranquilamente, asta que un dia gura me dijo yo dayo , senti una horrible vergueza pero todo se salio de mi control cuando ella enpezo a gemirme como si jugára ring fit adventure para burlarse de mi...la muy mamona ya se creia ayame , no le tome mucha importancia asta que pense ... que podria llegar a gustarle , si lo se enfermiso pero como el incesto es mi fetiche enpeze a cortegarla y poco a poco nos fuimos enamorando...incluso llegabamos al punto de besarnos...........
