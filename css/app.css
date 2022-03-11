@@ -331,20 +331,20 @@
   height:auto;
 }
 
-@media screen and (max-width: 960px){
+@media(min-width: 1600px){
   .orbit-container{
     display:block;
     margin:0 auto;
     width:100%;
-    max-height: 30rem;
+    max-height: 40rem;
   }
   .orbit-caption{
     overflow: visible;
-    max-height: 30rem;
+    max-height: 40rem;
   }
   .orbit-slide{
     overflow: visible;
-    max-height: 30rem;
+    max-height: 40rem;
   }
   .orbit-image{
     width:100%;
@@ -357,24 +357,24 @@
   .orbig-image img{
     display: block;
     max-width: none !important;
-    max-height: 30rem;
+    max-height: 40rem;
   }
 }
 
-@media screen and (max-width: 965px){
+@media(min-width: 1200px){
   .orbit-container{
     display:block;
     margin:0 auto;
     width:100%;
-    max-height: 30rem;
+    max-height: 25rem;
   }
   .orbit-caption{
     overflow: visible;
-    max-height: 30rem;
+    max-height: 25rem;
   }
   .orbit-slide{
     overflow: visible;
-    max-height: 30rem;
+    max-height: 25rem;
   }
   .orbit-image{
     width:100%;
@@ -383,28 +383,27 @@
     padding: 0;
     position: cover;
   }
-
   .orbig-image img{
     display: block;
     max-width: none !important;
-    max-height: 30rem;
+    max-height: 25rem;
   }
 }
 
-@media screen and (max-width: 500px){
+@media(min-width: 705px){
   .orbit-container{
     display:block;
     margin:0 auto;
     width:100%;
-    max-height: 30rem;
+    max-height: 20rem;
   }
   .orbit-caption{
     overflow: visible;
-    max-height: 30rem;
+    max-height: 20rem;
   }
   .orbit-slide{
     overflow: visible;
-    max-height: 30rem;
+    max-height: 20rem;
   }
   .orbit-image{
     width:100%;
@@ -417,7 +416,37 @@
   .orbig-image img{
     display: block;
     max-width: none !important;
-    max-height: 30rem;
+    max-height: 20rem;
+  }
+}
+
+@media(max-width: 480){
+  .orbit-container{
+    display:block;
+    margin:0 auto;
+    width:100%;
+    max-height: 15rem;
+  }
+  .orbit-caption{
+    overflow: visible;
+    max-height: 15rem;
+  }
+  .orbit-slide{
+    overflow: visible;
+    max-height: 15rem;
+  }
+  .orbit-image{
+    width:100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: cover;
+  }
+
+  .orbig-image img{
+    display: block;
+    max-width: none !important;
+    max-height: 15rem;
   }
 }
 
