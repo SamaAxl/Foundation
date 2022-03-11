@@ -673,6 +673,13 @@
   margin-left: 3rem;
 }
 
+footer .container{
+  margin-left: 0;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
 
 .sign-in-form {
   padding: 1rem 1.5em;
