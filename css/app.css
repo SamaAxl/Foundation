@@ -806,4 +806,7 @@
   border-right: 17px solid #2c3840;
   transition: all 0.2s linear;
 }
-
+ .logo{
+   width: 104px;
+   height: 70px;
+ }
