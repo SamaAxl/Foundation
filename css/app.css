@@ -461,15 +461,15 @@
 
 .marketing-site-footer {
   background: #f2f2f2;
-  color: #222222;
-  border: 2px solid #222222;
+  color: #020304;
+  border: 2px solid #020304;
   padding: 2rem 0 0;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .marketing-site-footer .marketing-site-footer-menu-social a {
-  color: #fefefe;
+  color: #020304;
 }
 
 .marketing-site-footer .column-block {
@@ -487,13 +487,13 @@
 }
 
 .marketing-site-footer-name {
-  color: #fefefe;
+  color: #020304;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
 
 .marketing-site-footer-title {
-  color: #fefefe;
+  color: #020304;
   margin-bottom: 1rem;
   font-size: 1.25rem;
 }
@@ -550,7 +550,7 @@
 }
 
 .marketing-site-footer .marketing-site-footer-menu-social a {
-  color: #fefefe;
+  color: #020304;
 }
 
 .marketing-site-footer .column-block {
