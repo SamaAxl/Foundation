@@ -696,7 +696,7 @@
 }
 
 .sign-in-form input {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .sign-in-form input:focus {
@@ -727,7 +727,6 @@
   background-color: #44c8ed;
   border-color: #44c8ed;
 }
-
 
 .pagination-pointed .pagination-pointed-button, .pagination-pointed .current, .pagination-pointed .pagination-previous {
   position: relative;
