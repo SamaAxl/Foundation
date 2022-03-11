@@ -16,6 +16,11 @@
   margin-left: 3rem;
 }
 
+.follow-button{
+  background-color: #222222;
+  border-radius: 5px;
+}
+
 .news-image-gallery-container .rounded-social-buttons .social-button {
   display: inline-block;
   position: relative;
