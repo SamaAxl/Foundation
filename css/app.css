@@ -19,6 +19,8 @@
 .follow-button{
   background-color: #222222;
   border-radius: 5px;
+  text-align: center;
+  padding: 1rem;
 }
 
 .news-image-gallery-container .rounded-social-buttons .social-button {
