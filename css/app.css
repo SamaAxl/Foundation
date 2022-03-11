@@ -732,9 +732,7 @@ footer .container{
   content: "»";
 }
 
-.pagination-previous a::before, .pagination-previous.disabled::before {
-  display: inline-block;
-  margin-right: 0.5rem;
+.pagination-pointed .pagination-previous::before {
   content: "«";
 }
 
