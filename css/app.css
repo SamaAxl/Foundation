@@ -460,8 +460,10 @@
 
 
 .marketing-site-footer {
-  background: #8aa0ae;
+  background: #f2f2f2;
   color: #222222;
+  border: 2px;
+  border-color: #222222;
   padding: 2rem 0 0;
 }
 
