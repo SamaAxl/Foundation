@@ -22,7 +22,6 @@
   text-align: center;
   padding: 0.8rem;
   color: #fefefe;
-  margin-top: 1rem;
 }
 
 .news-image-gallery-container .rounded-social-buttons .social-button {
@@ -614,6 +613,7 @@
   background: #e6e6e6;
   padding: 1rem;
   text-align: center;
+  border-radius: 5px;
 }
 
 .card-user-container .card-user-social ul {
