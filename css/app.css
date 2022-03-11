@@ -726,6 +726,18 @@ footer .container{
   transition: all 0.2s linear;
 }
 
+.pagination-next a::after, .pagination-next.disabled::after {
+  display: inline-block;
+  margin-left: 0.5rem;
+  content: "»";
+}
+
+.pagination-previous a::after, .pagination-previous.disabled::after {
+  display: inline-block;
+  margin-right: 0.5rem;
+  content: "«";
+}
+
 .pagination-pointed .pagination-pointed-button:hover, .pagination-pointed .current:hover, .pagination-pointed .pagination-previous:hover {
   background-color: #1b1e20;
 }
