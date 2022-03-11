@@ -571,7 +571,7 @@
 .card-user-container {
   margin-bottom: 1rem;
   background-color: #fefefe;
-  color: #0a0a0a;
+  color: #020304;
   overflow: hidden;
   padding: 0;
   border-radius: 0;
@@ -719,8 +719,8 @@ footer .container{
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  background-color: #2c3840;
-  color: #fff;
+  background-color: #020304;
+  color: #f2f2f2ff;
   outline: 0;
   text-decoration: none;
   transition: all 0.2s linear;
