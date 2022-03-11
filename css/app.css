@@ -762,7 +762,7 @@ footer .container{
 
 .pagination-pointed .pagination-previous {
   border-radius: 4px;
-  margin-left: 16px;
+  margin-left: 0px;
 }
 
 .pagination-pointed .pagination-previous:hover::after {
