@@ -739,33 +739,12 @@ footer .container{
 }
 
 .pagination-pointed .pagination-next a {
-  border-radius: 4px 0 0 4px;
-  margin-right: 18px;
-}
-
-.pagination-pointed .pagination-next a:hover::after {
-  border-left: 17px solid #1b1e20;
-}
-
-.pagination-pointed .pagination-next a::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: -18px;
-  width: 0;
-  height: 0;
-  border-top: 17px solid transparent;
-  border-bottom: 17px solid transparent;
-  border-left: 17px solid #020304;
-  transition: all 0.2s linear;
-}
-
-.pagination-pointed .pagination-previous {
   border-radius: 4px;
 }
 
-.pagination-pointed .pagination-previous:hover::after {
-  border-right: 17px solid #1b1e20;
+
+.pagination-pointed .pagination-previous {
+  border-radius: 4px;
 }
 
 .pagination-pointed .pagination-previous::before {
