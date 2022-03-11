@@ -361,7 +361,7 @@
   }
 }
 
-@media screen and (min-width: 965px){
+@media screen and (max-width: 965px){
   .orbit-container{
     display:block;
     margin:0 auto;
@@ -391,7 +391,7 @@
   }
 }
 
-@media screen and (min-width: 400px){
+@media screen and (max-width: 500px){
   .orbit-container{
     display:block;
     margin:0 auto;
@@ -404,7 +404,7 @@
   }
   .orbit-slide{
     overflow: visible;
-    max-height: 25rem;
+    max-height: 30rem;
   }
   .orbit-image{
     width:100%;
@@ -816,4 +816,13 @@ footer .container{
  .logo{
    width: 104px;
    height: 70px;
+ }
+
+
+ .tablamargin{
+   margin-top: 1rem;
+ }
+
+ .barramobil{
+   align-items: center;
  }
