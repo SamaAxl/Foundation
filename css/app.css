@@ -1,9 +1,10 @@
 .cell {
-    margin: 1em;
+    margin-top: 1rem;
 }
 
 .outside{
-    padding: 0em 3em;
+    padding-left:3rem;
+    padding-right:2rem;;
 }
 
 .news-image-gallery-container {
@@ -666,3 +667,8 @@
   padding: 1rem;
 }
 
+
+
+.container{
+  margin-left: 2rem;
+}
