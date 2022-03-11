@@ -859,3 +859,11 @@ footer .container{
  .footerround{
   border-radius: 1rem;
  }
+
+ .marginbottomform{
+   margin-bottom:2rem;
+ }
+
+.tablamarginleft{
+  margin-left:1rem
+}
