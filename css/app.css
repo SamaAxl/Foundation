@@ -707,7 +707,7 @@ footer .container{
   border-color: #44c8ed;
 }
 
-.pagination-pointed .pagination-pointed-button, .pagination-pointed .current, .pagination-pointed {
+.pagination-pointed .pagination-pointed-button, .pagination-pointed .current, .pagination-pointed .pagination-previous {
   position: relative;
   display: inline-block;
   padding: 6px 12px;
@@ -724,6 +724,11 @@ footer .container{
   outline: 0;
   text-decoration: none;
   transition: all 0.2s linear;
+}
+
+.pagination-previous{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .pagination-pointed .pagination-pointed-button:hover, .pagination-pointed .current:hover, .pagination-pointed .pagination-previous:hover {
