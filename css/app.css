@@ -727,7 +727,7 @@ footer .container{
 }
 
 .pagination-pointed .pagination-pointed-button:hover, .pagination-pointed .current:hover, .pagination-pointed .pagination-previous:hover {
-  background-color: #41525e;
+  background-color: #1b1e20;
 }
 
 .pagination-pointed .current {
