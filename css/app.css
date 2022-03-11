@@ -758,7 +758,7 @@ footer .container{
 }
 
 .pagination-pointed .pagination-previous::before {
-  content: "";
+  content: "«";
 }
 
 
