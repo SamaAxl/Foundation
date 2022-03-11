@@ -707,7 +707,7 @@ footer .container{
   border-color: #44c8ed;
 }
 
-.pagination-pointed .pagination-pointed-button, .pagination-pointed .current, .pagination-pointed .pagination-previous {
+.pagination-pointed .pagination-pointed-button, .pagination-pointed .current, .pagination-pointed {
   position: relative;
   display: inline-block;
   padding: 6px 12px;
