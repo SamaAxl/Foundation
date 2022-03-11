@@ -763,8 +763,6 @@ footer .container{
 .pagination-pointed .pagination-previous {
   border-radius: 4px;
   margin-left: 18px;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
 }
 
 .pagination-pointed .pagination-previous:hover::after {
@@ -775,18 +773,7 @@ footer .container{
   content: "";
 }
 
-.pagination-pointed .pagination-previous::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -18px;
-  width: 0;
-  height: 0;
-  border-bottom: 17px solid transparent;
-  border-top: 17px solid transparent;
-  border-right: 17px solid #020304;
-  transition: all 0.2s linear;
-}
+
  .logo{
    width: 104px;
    height: 70px;
