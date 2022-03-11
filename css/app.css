@@ -744,7 +744,7 @@ footer .container{
 }
 
 .pagination-pointed .pagination-next a:hover::after {
-  border-left: 17px solid #41525e;
+  border-left: 17px solid #1b1e20;
 }
 
 .pagination-pointed .pagination-next a::after {
@@ -756,7 +756,7 @@ footer .container{
   height: 0;
   border-top: 17px solid transparent;
   border-bottom: 17px solid transparent;
-  border-left: 17px solid #2c3840;
+  border-left: 17px solid #020304;
   transition: all 0.2s linear;
 }
 
@@ -766,7 +766,7 @@ footer .container{
 }
 
 .pagination-pointed .pagination-previous:hover::after {
-  border-right: 17px solid #41525e;
+  border-right: 17px solid #1b1e20;
 }
 
 .pagination-pointed .pagination-previous::before {
@@ -782,7 +782,7 @@ footer .container{
   height: 0;
   border-bottom: 17px solid transparent;
   border-top: 17px solid transparent;
-  border-right: 17px solid #2c3840;
+  border-right: 17px solid #020304;
   transition: all 0.2s linear;
 }
  .logo{
