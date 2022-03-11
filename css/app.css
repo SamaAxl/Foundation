@@ -639,8 +639,8 @@
 
 
 .container{
-  
-  padding: 2rem 0 0;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 footer .container{
