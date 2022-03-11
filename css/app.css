@@ -726,11 +726,6 @@ footer .container{
   transition: all 0.2s linear;
 }
 
-.pagination-previous{
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
 .pagination-pointed .pagination-pointed-button:hover, .pagination-pointed .current:hover, .pagination-pointed .pagination-previous:hover {
   background-color: #1b1e20;
 }
@@ -768,6 +763,11 @@ footer .container{
 .pagination-pointed .pagination-previous {
   border-radius: 0 4px 4px 0;
   margin-left: 18px;
+}
+
+.pagination-previous{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .pagination-pointed .pagination-previous:hover::after {
