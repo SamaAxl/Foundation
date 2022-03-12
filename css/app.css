@@ -902,6 +902,7 @@ footer .container{
 
 .form-registration-group .form-registration-submit-button:hover, .form-registration-group .form-registration-submit-button:focus {
   background-color: #ffffff;
+  border-color: #000000;
   color: #000000;
 }
 
