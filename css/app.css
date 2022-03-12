@@ -6,7 +6,6 @@
     padding-left:3rem;
     padding-right:2rem;;
 }
-
 .news-image-gallery-container {
   background-color: #fefefe;
 }
@@ -482,12 +481,8 @@
 
 
 .marketing-site-footer {
-  background: #fafafa;
+  background: #ececec;
   color: #020304;
-  border: 2px solid #020304;
-  padding: 2rem 0 0;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 .marketing-site-footer .marketing-site-footer-menu-social a {
@@ -677,6 +672,9 @@ footer .container{
   margin-bottom: 1rem;
 }
 
+.footermargin{
+  margin-right:1rem;
+}
 
 .sign-in-form {
   padding: 1rem 1.5em;
