@@ -5,5 +5,9 @@ $('[data-open-details]').click(function (e) {
     $(this).next().toggleClass('is-active');
     $(this).toggleClass('is-active');
   });
+ 
   
   
+  
+
+
