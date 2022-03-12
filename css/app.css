@@ -936,8 +936,9 @@ footer .container{
 }
 
 .form-registration-group .form-registration-social-button:hover, .form-registration-group .form-registration-social-button:focus {
-  border-color: #1e2d4c;
-  color: #1e2d4c;
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
 }
 
 .form-registration-group .form-registration-social-button .fa {
