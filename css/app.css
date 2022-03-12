@@ -17,11 +17,33 @@
 }
 
 .follow-button{
-  background-color: #020304;
-  border-radius: 5px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  display: inline-block;
+  margin: auto;
+  padding: 0.85em 1em;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
   text-align: center;
-  padding: 0.8rem;
+  cursor: pointer;
+  background-color: #020304;
   color: #fefefe;
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5rem;
+  max-width: 10rem;
+}
+
+.follow-button:hover{
+  background-color: #ffffff;
+  border-color:#020304;
+  color: #000000;
 }
 
 .news-image-gallery-container .rounded-social-buttons .social-button {
@@ -635,18 +657,21 @@
 
 .card-user-container .card-user-button {
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 
 
 .container{
   margin-left: 3rem;
-  margin-right: 2rem;
+  margin-right: 3rem;
+}
+.containerf{
+  text-align: center;
+  margin-bottom:1rem;
 }
 
 footer .container{
-  margin-left: 0;
   text-align: center;
   align-items: center;
   margin-bottom: 1rem;
@@ -768,7 +793,7 @@ footer .container{
  }
 
 
- .tablamargin{
+ .tablamargintop{
    margin-top: 1rem;
  }
 
@@ -777,15 +802,17 @@ footer .container{
  }
 
  .footerround{
-  border-radius: 1rem;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
  }
 
  .marginbottomform{
    margin-bottom:2rem;
  }
 
-.tablamarginleft{
-  margin-left:1rem
+.tablamargin{
+  margin-left:1rem;
+  margin-right:2rem;
 }
 
 .margin-top1rem{
@@ -860,7 +887,7 @@ footer .container{
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #1779ba;
+  background-color: #020304;
   color: #fefefe;
   display: block;
   width: 100%;
@@ -874,8 +901,8 @@ footer .container{
 }
 
 .form-registration-group .form-registration-submit-button:hover, .form-registration-group .form-registration-submit-button:focus {
-  background-color: #126195;
-  color: #fefefe;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .form-registration-group .form-registration-social-button {
@@ -892,8 +919,8 @@ footer .container{
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  border: 1px solid #3b5998;
-  color: #3b5998;
+  border: 1px solid #020304;
+  color: #020304;
   display: block;
   width: 100%;
   margin-right: 0;
@@ -964,7 +991,10 @@ footer .container{
   padding: 0 8px;
 }
 
-
+.bgb{
+  background-color:#020304 ;
+  border-color: #020304;
+}
 
 
 
