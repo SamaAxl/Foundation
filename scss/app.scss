@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .cell {
   margin-top: 1rem;
 }
@@ -12,29 +11,31 @@
   background-color: #fefefe;
 }
 
-.news-image-gallery-container .rounded-social-buttons {
-  text-align: left;
-  margin-left: 3rem;
-}
-.news-image-gallery-container .rounded-social-buttons social-button {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  width: 2.5rem;
-  height: 2.5rem;
-  border: 0.125rem solid transparent;
-  padding: 0;
-  text-decoration: none;
-  text-align: center;
-  color: #fefefe;
-  font-size: 1.25rem;
-  font-weight: normal;
-  line-height: 1.8em;
-  border-radius: 1.6875rem;
-  -webkit-transition: 0.5s ease all;
-  transition: 0.5s ease all;
-  margin-right: 0.25rem;
-  margin-bottom: 0.25rem;
+.news-image-gallery-container {
+  .rounded-social-buttons {
+    text-align: left;
+    margin-left: 3rem;
+
+    social-button {
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 2.5rem;
+      height: 2.5rem;
+      border: 0.125rem solid transparent;
+      padding: 0;
+      text-decoration: none;
+      text-align: center;
+      color: #fefefe;
+      font-size: 1.25rem;
+      font-weight: normal;
+      line-height: 1.8em;
+      border-radius: 1.6875rem;
+      transition: 0.5s ease all;
+      margin-right: 0.25rem;
+      margin-bottom: 0.25rem;
+    }
+  }
 }
 
 .follow-button {
@@ -46,7 +47,6 @@
   -webkit-appearance: none;
   border: 1px solid transparent;
   border-radius: 0;
-  -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-size: 0.9rem;
   line-height: 1;
@@ -60,16 +60,18 @@
   margin-left: auto;
   border-radius: 5rem;
   max-width: 10rem;
-}
-.follow-button:hover {
-  background-color: #ffffff;
-  border-color: #020304;
-  color: #000000;
+
+  &:hover {
+    background-color: #ffffff;
+    border-color: #020304;
+    color: #000000;
+  }
 }
 
 .news-image-gallery-container .rounded-social-buttons .social-button:hover,
 .news-image-gallery-container .rounded-social-buttons .social-button:focus {
   -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
 
@@ -77,13 +79,19 @@
   background: #3b5998;
 }
 
-.news-image-gallery-container .rounded-social-buttons .social-button.facebook:before {
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.facebook:before {
   font-family: "FontAwesome";
   content: "";
 }
 
-.news-image-gallery-container .rounded-social-buttons .social-button.facebook:hover,
-.news-image-gallery-container .rounded-social-buttons .social-button.facebook:focus {
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.facebook:hover,
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.facebook:focus {
   color: #3b5998;
   background: #fefefe;
   border-color: #3b5998;
@@ -93,13 +101,19 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
   background: #55acee;
 }
 
-.news-image-gallery-container .rounded-social-buttons .social-button.twitter:before {
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.twitter:before {
   font-family: "FontAwesome";
   content: "";
 }
 
-.news-image-gallery-container .rounded-social-buttons .social-button.twitter:hover,
-.news-image-gallery-container .rounded-social-buttons .social-button.twitter:focus {
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.twitter:hover,
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.twitter:focus {
   color: #55acee;
   background: #fefefe;
   border-color: #55acee;
@@ -109,29 +123,43 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
   background: #007bb5;
 }
 
-.news-image-gallery-container .rounded-social-buttons .social-button.linkedin:before {
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.linkedin:before {
   font-family: "FontAwesome";
   content: "";
 }
 
-.news-image-gallery-container .rounded-social-buttons .social-button.linkedin:hover,
-.news-image-gallery-container .rounded-social-buttons .social-button.linkedin:focus {
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.linkedin:hover,
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.linkedin:focus {
   color: #007bb5;
   background: #fefefe;
   border-color: #007bb5;
 }
 
-.news-image-gallery-container .rounded-social-buttons .social-button.google-plus {
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.google-plus {
   background: #dd4b39;
 }
 
-.news-image-gallery-container .rounded-social-buttons .social-button.google-plus:before {
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.google-plus:before {
   font-family: "FontAwesome";
   content: "";
 }
 
-.news-image-gallery-container .rounded-social-buttons .social-button.google-plus:hover,
-.news-image-gallery-container .rounded-social-buttons .social-button.google-plus:focus {
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.google-plus:hover,
+.news-image-gallery-container
+  .rounded-social-buttons
+  .social-button.google-plus:focus {
   color: #dd4b39;
   background: #fefefe;
   border-color: #dd4b39;
@@ -175,14 +203,6 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
   color: #8a8a8a;
 }
 
-.translucent-form-overlay input::-moz-placeholder {
-  color: #8a8a8a;
-}
-
-.translucent-form-overlay input::-ms-input-placeholder {
-  color: #8a8a8a;
-}
-
 .translucent-form-overlay input::placeholder {
   color: #8a8a8a;
 }
@@ -200,9 +220,9 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
 }
 
 .topbar-center-logo .top-bar-center {
+  -webkit-flex: 1 0 auto;
   -ms-flex: 1 0 auto;
-  -webkit-box-flex: 1;
-          flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -210,6 +230,7 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     display: none;
   }
 }
+
 .topbar-center-logo-mobile {
   background: #2c3840;
 }
@@ -269,6 +290,7 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     opacity: 1;
   }
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -277,11 +299,13 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     opacity: 1;
   }
 }
+
 .sticky-social-bar {
   padding: 0;
   margin: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   width: 11.25rem;
   background-color: #333333;
@@ -294,7 +318,6 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
   color: #fefefe;
   background-color: inherit;
   margin: 0;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   font-size: 1.1rem;
@@ -355,6 +378,7 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
 
 .sticky-social-bar .social-icon:hover {
   -webkit-transform: translateX(8.75rem);
+  -ms-transform: translateX(8.75rem);
   transform: translateX(8.75rem);
 }
 
@@ -375,17 +399,14 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     width: 100%;
     max-height: 40rem;
   }
-
   .orbit-caption {
     overflow: visible;
     max-height: 40rem;
   }
-
   .orbit-slide {
     overflow: visible;
     max-height: 40rem;
   }
-
   .orbit-image {
     width: 100%;
     overflow: hidden;
@@ -400,6 +421,7 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     max-height: 40rem;
   }
 }
+
 @media (min-width: 1200px) {
   .orbit-container {
     display: block;
@@ -407,17 +429,14 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     width: 100%;
     max-height: 25rem;
   }
-
   .orbit-caption {
     overflow: visible;
     max-height: 25rem;
   }
-
   .orbit-slide {
     overflow: visible;
     max-height: 25rem;
   }
-
   .orbit-image {
     width: 100%;
     overflow: hidden;
@@ -425,13 +444,13 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     padding: 0;
     position: cover;
   }
-
   .orbig-image img {
     display: block;
     max-width: none !important;
     max-height: 25rem;
   }
 }
+
 @media (min-width: 705px) {
   .orbit-container {
     display: block;
@@ -439,17 +458,14 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     width: 100%;
     max-height: 20rem;
   }
-
   .orbit-caption {
     overflow: visible;
     max-height: 20rem;
   }
-
   .orbit-slide {
     overflow: visible;
     max-height: 20rem;
   }
-
   .orbit-image {
     width: 100%;
     overflow: hidden;
@@ -464,6 +480,7 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     max-height: 20rem;
   }
 }
+
 @media (max-width: 480) {
   .orbit-container {
     display: block;
@@ -471,17 +488,14 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     width: 100%;
     max-height: 15rem;
   }
-
   .orbit-caption {
     overflow: visible;
     max-height: 15rem;
   }
-
   .orbit-slide {
     overflow: visible;
     max-height: 15rem;
   }
-
   .orbit-image {
     width: 100%;
     overflow: hidden;
@@ -496,6 +510,7 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     max-height: 15rem;
   }
 }
+
 .marketing-site-footer {
   background: #ececec;
   color: #020304;
@@ -518,6 +533,7 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     margin-bottom: 2rem;
   }
 }
+
 .marketing-site-footer-name {
   color: #020304;
   margin-bottom: 1rem;
@@ -531,8 +547,8 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
 }
 
 .marketing-site-footer-block {
+  display: -webkit-flex;
   display: -ms-flexbox;
-  display: -webkit-box;
   display: flex;
   margin-bottom: 1rem;
 }
@@ -559,9 +575,9 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
 }
 
 .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+  -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
-  -webkit-box-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .marketing-site-footer-bottom .marketing-site-footer-bottom-links a {
@@ -570,16 +586,18 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
 
 @media screen and (max-width: 63.9375em) {
   .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
+    -webkit-justify-content: center;
     -ms-flex-pack: center;
-    -webkit-box-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
 }
+
 @media screen and (max-width: 63.9375em) {
   .marketing-site-footer-bottom {
     text-align: center;
   }
 }
+
 .marketing-site-footer .marketing-site-footer-menu-social a {
   color: #020304;
 }
@@ -597,6 +615,7 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     margin-bottom: 2rem;
   }
 }
+
 .card-user-container {
   margin-bottom: 1rem;
   background-color: #fefefe;
@@ -604,52 +623,65 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
   overflow: hidden;
   padding: 0;
   border-radius: 0;
+
+  
+.card-user-avatar .user-image {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 11.875rem;
+    height: 11.875rem;
+    padding: 0.9375rem;
+  }
+  
+  .card-user-avatar .user-image:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  .card-user-bio {
+    padding: 1rem;
+    text-align: center;
+  
+    .location {
+      display: inline-block;
+      margin: 0 0.9375rem;
+      color: #767676;
+      font-size: 0.875rem;
+    }
+  
+    .location-icon,
+    .location-text {
+      display: inline-block;
+      padding: 0 0.3125rem;
+    }
+  }
+  
+  .card-user-social {
+    background: #e6e6e6;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+  
+    ul {
+      display: inline-block;
+    }
+  
+    li {
+      margin: 0 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+  
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
 }
-.card-user-container .card-user-avatar .user-image {
-  display: block;
-  margin: auto;
-  border-radius: 50%;
-  width: 11.875rem;
-  height: 11.875rem;
-  padding: 0.9375rem;
-}
-.card-user-container .card-user-avatar .user-image:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-.card-user-container .card-user-bio {
-  padding: 1rem;
-  text-align: center;
-}
-.card-user-container .card-user-bio .location {
-  display: inline-block;
-  margin: 0 0.9375rem;
-  color: #767676;
-  font-size: 0.875rem;
-}
-.card-user-container .card-user-bio .location-icon,
-.card-user-container .card-user-bio .location-text {
-  display: inline-block;
-  padding: 0 0.3125rem;
-}
-.card-user-container .card-user-social {
-  background: #e6e6e6;
-  padding: 1rem;
-  text-align: center;
-  border-radius: 5px;
-}
-.card-user-container .card-user-social ul {
-  display: inline-block;
-}
-.card-user-container .card-user-social li {
-  margin: 0 10px;
-  font-size: 1.2em;
-  cursor: pointer;
-}
-.card-user-container .card-user-social:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
+
 
 .card-user-button {
   text-align: center;
@@ -660,7 +692,6 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
   margin-left: 3rem;
   margin-right: 3rem;
 }
-
 .containerf {
   text-align: center;
   margin-bottom: 1rem;
@@ -668,9 +699,7 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
 
 footer .container {
   text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-bottom: 1rem;
 }
 
@@ -682,25 +711,29 @@ footer .container {
   padding: 1rem 1.5em;
   border-radius: 0.5rem;
   background-color: #3d454f;
-}
-.sign-in-form h4 {
-  color: white;
-  margin-bottom: 1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.sign-in-form label {
-  text-transform: uppercase;
-  color: #adadad;
-  letter-spacing: 1px;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-.sign-in-form input {
-  color: black;
-}
-.sign-in-form input:focus {
-  opacity: 0.8;
+
+  h4 {
+    color: white;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  label {
+    text-transform: uppercase;
+    color: #adadad;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  input {
+    color: rgb(0, 0, 0);
+  }
+
+  input:focus {
+    opacity: 0.8;
+  }
 }
 
 .sign-in-form-username,
@@ -708,7 +741,6 @@ footer .container {
   border-radius: 30px;
   border: none;
   opacity: 0.1;
-  -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
 }
 
@@ -721,12 +753,12 @@ footer .container {
   letter-spacing: 1px;
   width: 100%;
   padding: 1rem;
-  -webkit-transition: all ease 0.4s;
   transition: all ease 0.4s;
-}
-.sign-in-form-button:hover {
-  background-color: #44c8ed;
-  border-color: #44c8ed;
+
+  &:hover {
+    background-color: #44c8ed;
+    border-color: #44c8ed;
+  }
 }
 
 .pagination-pointed .pagination-pointed-button,
@@ -747,7 +779,6 @@ footer .container {
   color: #fafafa;
   outline: 0;
   text-decoration: none;
-  -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
@@ -770,9 +801,10 @@ footer .container {
 
 .pagination-pointed .current {
   background: dodgerblue;
-}
-.pagination-pointed .current:hover {
-  background-color: #0077ea;
+
+  &:hover {
+    background-color: #0077ea;
+  }
 }
 
 .pagination-pointed .pagination-next a {
@@ -781,9 +813,10 @@ footer .container {
 
 .pagination-pointed .pagination-previous {
   border-radius: 4px;
-}
-.pagination-pointed .pagination-previous::before {
-  content: "«";
+
+  &::before {
+    content: "«";
+  }
 }
 
 .logo {
@@ -796,9 +829,7 @@ footer .container {
 }
 
 .barramobil {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .footerround {
@@ -834,10 +865,11 @@ footer .container {
   color: #fefefe;
   padding: 2rem;
   border-radius: 0;
-}
-.simple-subscription-form .button {
-  margin-bottom: 0;
-  border-radius: 0 0 0 0;
+
+  .button {
+    margin-bottom: 0;
+    border-radius: 0 0 0 0;
+  }
 }
 
 .form-registration {
@@ -846,14 +878,21 @@ footer .container {
 
 .form-registration .form-registration-img {
   position: relative;
-}
-.form-registration .form-registration-img .form-registration-img-caption {
-  position: absolute;
-  padding: 0.5rem;
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(1, rgba(254, 254, 254, 0.3)), color-stop(0, #fefefe));
+
+  .form-registration-img-caption {
+    position: absolute;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(1, rgba(254, 254, 254, 0.3)),
+      color-stop(0, #fefefe)
+    );
+  }
 }
 
 .form-registration-group {
@@ -862,11 +901,11 @@ footer .container {
 
 .form-registration-group .form-registration-input {
   border-radius: 0;
-}
-.form-registration-group .form-registration-input:focus {
-  border: 2px solid #1779ba;
-  -webkit-box-shadow: 0 0 5px #1779ba;
-          box-shadow: 0 0 5px #1779ba;
+
+  &:focus {
+    border: 2px solid #1779ba;
+    box-shadow: 0 0 5px #1779ba;
+  }
 }
 
 .form-registration-group .form-registration-submit-button {
@@ -878,7 +917,6 @@ footer .container {
   -webkit-appearance: none;
   border: 1px solid transparent;
   border-radius: 0;
-  -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-size: 0.9rem;
   line-height: 1;
@@ -893,7 +931,9 @@ footer .container {
   border-radius: 5000px;
 }
 
-[data-whatinput=mouse] .form-registration-group .form-registration-submit-button {
+[data-whatinput="mouse"]
+  .form-registration-group
+  .form-registration-submit-button {
   outline: 0;
 }
 
@@ -913,7 +953,6 @@ footer .container {
   -webkit-appearance: none;
   border: 1px solid transparent;
   border-radius: 0;
-  -webkit-transition: background-color 0.25s ease-out, color 0.25s ease-out;
   transition: background-color 0.25s ease-out, color 0.25s ease-out;
   font-size: 0.9rem;
   line-height: 1;
@@ -928,7 +967,9 @@ footer .container {
   border-radius: 5000px;
 }
 
-[data-whatinput=mouse] .form-registration-group .form-registration-social-button {
+[data-whatinput="mouse"]
+  .form-registration-group
+  .form-registration-social-button {
   outline: 0;
 }
 
@@ -954,20 +995,23 @@ footer .container {
   text-align: center;
   font-weight: bold;
   font-size: 14px;
-}
-.form-registration-group .form-registration-member-signin a {
-  margin-left: 0.25rem;
+
+  a {
+    margin-left: 0.25rem;
+  }
 }
 
 .form-registration-group .form-registration-terms {
   text-align: center;
   font-size: 12px;
-}
-.form-registration-group .form-registration-terms a:first-child {
-  margin-right: 0.25rem;
-}
-.form-registration-group .form-registration-terms a:last-child {
-  margin-left: 0.25rem;
+
+  a:first-child {
+    margin-right: 0.25rem;
+  }
+
+  a:last-child {
+    margin-left: 0.25rem;
+  }
 }
 
 .form-registration-group .or-divider {
@@ -978,16 +1022,18 @@ footer .container {
   width: 100%;
   height: 0px;
   border: 1px solid #e6e6e6;
-}
-.form-registration-group .or-divider span {
-  color: #8a8a8a;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  top: -12px;
-  background-color: #fefefe;
-  padding: 0 8px;
+
+  span {
+    color: #8a8a8a;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: -12px;
+    background-color: #fefefe;
+    padding: 0 8px;
+  }
 }
 
 .bgb {
