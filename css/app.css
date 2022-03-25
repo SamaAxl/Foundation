@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .cell {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .outside {
@@ -346,6 +346,11 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
   text-decoration: none;
 }
 
+.noticias {
+  background-color: #f7f7f7;
+  padding-top: 1rem;
+}
+
 @media (max-width: 900px) {
   .orbit-container {
     display: block;
@@ -595,6 +600,14 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     margin-bottom: 2rem;
   }
 }
+.columns h3 a:link,
+.columns h3 a:visited,
+.columns h3 a:hover,
+.columns h3 a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
 .card-user-container {
   margin-bottom: 1rem;
   background-color: #fefefe;
@@ -662,6 +675,11 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
 .containerf {
   text-align: center;
   margin-bottom: 1rem;
+}
+
+.containertop {
+  max-width: 80%;
+  margin: auto;
 }
 
 footer .container {
