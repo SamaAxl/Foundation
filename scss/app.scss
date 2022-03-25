@@ -360,20 +360,13 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
   background-color: inherit;
 }
 
-.blog-post{
-  
-  a:link,
-  a:visited,
-  a:hover,
-  a:active {
-    color: #000000;
-    text-decoration: none;
-  }
-
-  a {
-    text-decoration: none;
-    box-shadow: inset 0 -3px 0 0 #bdb;
-    box-shadow: none;
+.blog-post h3{
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      color: #000000;
+      text-decoration: none;
   }
 }
 
@@ -1042,3 +1035,4 @@ footer .container {
   background-color: #020304;
   border-color: #020304;
 }
+
