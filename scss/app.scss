@@ -3,40 +3,15 @@
 }
 
 .outside {
-  padding-left: 3rem;
-  padding-right: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .news-image-gallery-container {
   background-color: #fefefe;
 }
 
-.news-image-gallery-container {
-  .rounded-social-buttons {
-    text-align: left;
-    margin-left: 3rem;
 
-    social-button {
-      display: inline-block;
-      position: relative;
-      cursor: pointer;
-      width: 2.5rem;
-      height: 2.5rem;
-      border: 0.125rem solid transparent;
-      padding: 0;
-      text-decoration: none;
-      text-align: center;
-      color: #fefefe;
-      font-size: 1.25rem;
-      font-weight: normal;
-      line-height: 1.8em;
-      border-radius: 1.6875rem;
-      transition: 0.5s ease all;
-      margin-right: 0.25rem;
-      margin-bottom: 0.25rem;
-    }
-  }
-}
 
 .follow-button {
   text-transform: uppercase;
@@ -388,8 +363,8 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
 }
 
 .containerImagenes {
-  width: 100%;
-  height: auto;
+  max-width: 65rem;
+  max-height: 45rem;
 }
 
 @media (min-width: 1600px) {
@@ -419,6 +394,20 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     display: block;
     max-width: none !important;
     max-height: 40rem;
+  }
+  .blog-post{
+    max-width: 65rem;
+    max-height: 100%;;
+    margin:auto;
+    padding:auto;
+    text-align: center;
+
+    h3{
+      text-align: justify;
+    }
+    p{
+      text-align: justify;
+    }
   }
 }
 
@@ -508,6 +497,11 @@ news-image-gallery-container .rounded-social-buttons .social-button.twitter {
     display: block;
     max-width: none !important;
     max-height: 15rem;
+  }
+  .blog-post{
+    max-width: 100%;
+    max-height: 100%;
+    margin:auto;
   }
 }
 
@@ -1040,3 +1034,4 @@ footer .container {
   background-color: #020304;
   border-color: #020304;
 }
+
